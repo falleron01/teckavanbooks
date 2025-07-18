@@ -18,7 +18,7 @@ Sistema de gerenciamento de biblioteca com cadastro, edição, exclusão e lista
      php artisan key:generate
      ```
 
-4. **Execute as migrações do banco de dados:**
+4. **Execute as migrações do banco de dados (se necessário):**
    ```bash
    php artisan migrate
    ```
