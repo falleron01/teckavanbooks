@@ -9,6 +9,7 @@ Sistema de gerenciamento de biblioteca com cadastro, edição, exclusão e lista
 
 2. **Aguarde o ambiente iniciar.**  
    O Codespaces já instala as dependências automaticamente (via `postCreateCommand`).
+   Se atente ao Google Translate, ele pode prejudicar o funcionamento do Codespaces então desligue se ele ativar automaticamente ao acessar a página.
 
 3. **Configure o ambiente (se necessário):**
    - O arquivo `.env` já está pronto para uso com SQLite e a URL do Codespaces.
