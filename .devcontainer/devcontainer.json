@@ -1,0 +1,17 @@
+{
+  "name": "Laravel Dev",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "postCreateCommand": "composer install && cp .env.example .env && php artisan key:generate && touch database/database.sqlite && php artisan migrate",
+  "forwardPorts": [8000],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "bmewburn.vscode-intelephense-client",
+        "onecentlin.laravel-blade",
+        "xdebug.php-debug"
+      ]
+    }
+  }
+}
