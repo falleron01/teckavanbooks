@@ -5,7 +5,7 @@ Sistema de gerenciamento de biblioteca com cadastro, edição, exclusão e lista
 ## Como executar a aplicação no GitHub Codespaces
 
 1. **Abra o projeto no seu Codespaces:**
-   - Clique em **"Code" > "Open with Codespaces" > "New codespace"** no repositório deste projeto do GitHub.
+   - Clique em **"Code" > "Codespaces" > Clique no sinal de + com a legenda "Create a codespace on main"** no repositório deste projeto do GitHub.
 
 2. **Aguarde o ambiente iniciar.**  
    O Codespaces já instala as dependências automaticamente (via `postCreateCommand`).
