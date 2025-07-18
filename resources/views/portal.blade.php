@@ -140,7 +140,7 @@
 
                 <div class="form-group">
                     <label for="ano_publi">Ano de Publicação *</label>
-                    <input type="number" id="ano_publi" name="ano_publi" min="1000" max="2024" required>
+                    <input type="number" id="ano_publi" name="ano_publi" min="1000" max="2025" required>
                     <span class="error-text" id="ano_publiError"></span>
                 </div>
 
